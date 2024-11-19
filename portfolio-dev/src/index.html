@@ -6,158 +6,273 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
 
+<body class="px-20">
 
-<header>
-    <div class="name">
-        <h3>SAMUEL RIBEIRO</h3>
+    <header class="border-b-2">
+        <h3 class="flex items-center justify-center p-2.5 font-extralight text-2xl">SAMUEL RIBEIRO</h3>
+
+    </header>
+
+    <div class=" flex items-center justify-center pb-12 ">
+        <p class="flex items-center justify-center pt-16 font-light text-lg text-gray-950"> FULL STACK DEVELOPER |
+            FRONTEND DEVELOPER |
+            BACKEND DEVELOPER </p>
+    </div>
+    <div class="">
+        <h3 class="flex  font-medium text-2xl"> SKILLS</h3>
     </div>
 
-</header>
+    <section class="flex gap-28 pt-8 pb-6 border-b-2 border-gray-950">
 
-<p id="p-one"> FULL STACK DEVELOPER | FRONTEND DEVELOPER | BACKEND DEVELOPER </p>
+        <div class="flex flex-col gap-5 justify-start ">
 
-<hr>
+            <h3 class="text-xl font-medium">Programming Languages</h3>
 
-<h3>SKILLS</h3>
-<ul>
+            <h3 class="text-xl font-medium">Frameworks</h3>
 
-    <p>Programming Languages</p>
-    <p>Frameworks & Libraries </p>
-    <p>Databases</p>
-    <p>Tools & Technologies</p>
-    <p>Interests</p>
+            <h3 class="text-xl font-medium">Database</h3>
 
-</ul>
-<hr>
-<div class="nav-projects">
-    <p>
-    <h4>Projects</h4>
-    <h4>Hover to preview</h4>
-    </p>
-</div>
+            <h3 class="text-xl font-medium">Tools & technologies</h3>
 
-<div class="projects">
+            <h3 class="text-xl font-medium">Interests</h3>
 
-    <div class="projects-rectangle-one-title">
+        </div>
+        <div class="flex flex-col gap-4 ">
+            <div class=" flex gap-5">
+                <div class="flex gap-2 p-1 border-2 border-gray-400 rounded-lg bg-gray-200 w-49 h-8 ">
+                    <img src="/portfolio-dev/src/assets/images/skill-icons_javascript.svg" alt="">
+                    <h5 class=" ">JavaScript</h5>
+                </div>
 
-        <div class="projects-rectangle-one">
-            <h1>EXEMPLOS DE PROJETOS</h1>
-            <h3>Titulos do PROJETO</h3>
+                <div class="flex gap-1 p-1 border-2 border-gray-400 rounded-lg bg-gray-200 w-49 h-8">
+                    <img src="/portfolio-dev/src/assets/images/vscode-icons_file-type-html.svg" alt="">
+                    <h5>HTML</h5>
+                </div>
+
+                <div class="flex gap-1 p-1 border-2 border-gray-400 rounded-lg bg-gray-200 w-49 h-8">
+                    <img src="/portfolio-dev/src/assets/images/vscode-icons_file-type-css.svg" alt="">
+                    <h5>CSS</h5>
+                </div>
+            </div>
+
+            <div class=" flex gap-5">
+                <div class="flex gap-1 p-1 border-2 border-gray-400 rounded-lg bg-gray-200 w-20 h-8">
+                    <img src="/portfolio-dev/src/assets/images/vscode-icons_file-type-reactjs.svg" alt="">
+                    <h5 class="">React</h5>
+
+                </div>
+
+                <div class="flex gap-1 p-1 border-2 border-gray-400 rounded-lg bg-gray-200 w-26 h-8">
+                    <img src="/portfolio-dev/src/assets/images/devicon_tailwindcss.svg" alt="">
+                    <h5>Tailwind</h5>
+                </div>
+            </div>
+
+            <div class="flex gap-5 ">
+                <div class="flex gap-1 p-1 border-2 border-gray-400 rounded-lg bg-gray-200 w-49 h-8">
+                    <img src="/portfolio-dev/src/assets/images/logos_mysql.svg" alt="">
+                    <h5>MySQL</h5>
+                </div>
+
+
+                <div class="flex gap-1 p-1 border-2 border-gray-400 rounded-lg bg-gray-200 w-49 h-8">
+                    <img class=" items-center justify-center w-5 h-6"
+                        src="/portfolio-dev/src/assets/images/logos_oracle.svg" alt="">
+                    <h5>Oracle</h5>
+                </div>
+
+                <div class="flex gap-1 p-1 border-2 border-gray-400 rounded-lg bg-gray-200 w-49 h-8">
+                    <img class="" src="/portfolio-dev/src/assets/images/devicon_mongodb.svg" alt="">
+                    <h5>MongoDB</h5>
+                </div>
+            </div>
+
+            <div class="flex gap-5">
+                <div class="flex gap-1 p-1 border-2 border-gray-400 rounded-lg bg-gray-200 w-49 h-8">
+                    <img src="/portfolio-dev/src/assets/images/devicon_git.svg" alt="">
+                    <h5>Git</h5>
+                </div>
+
+                <div class="flex gap-1 p-1 border-2 border-gray-400 rounded-lg bg-gray-200 w-49 h-8">
+                    <img src="/portfolio-dev/src/assets/images/logos_nodejs-icon.svg" alt="">
+                    <h5>Node.js</h5>
+                </div>
+
+                <div class="flex gap-1 p-1 border-2 border-gray-400 rounded-lg bg-gray-200 w-49 h-8">
+                    <img src="/portfolio-dev/src/assets/images/uil_github.svg" alt="">
+                    <h5>GitHub</h5>
+                </div>
+            </div>
+            <div class="flex gap-5">
+                <div class="flex gap-1 p-1 border-2 border-gray-400 rounded-lg bg-gray-200 w-49 h-8">
+                    <img src="/portfolio-dev/src/assets/images/Web Development.svg" alt="">
+                    <h5>Web Development</h5>
+                </div>
+
+                <div class="flex gap-1 p-1 border-2 border-gray-400 rounded-lg bg-gray-200 w-49 h-8">
+                    <img src="/portfolio-dev/src/assets/images/Developer.svg" alt="">
+                    <h5>Full Stack Development</h5>
+                </div>
+
+                <div class="flex gap-1 p-1 border-2 border-gray-400 rounded-lg bg-gray-200 w-49 h-8">
+                    <img src="/portfolio-dev/src/assets/images/Software.svg" alt="">
+                    <h5>Software Development</h5>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <div class="flex justify-between py-5">
+
+        <h2 class="text-2xl font-medium "> Projects </h2>
+        <h2 class="text-2xl font-medium "> (Hover to preview) </h2>
+
+    </div>
+
+    <section class="flex gap-10">
+
+        <div class="w-404 h-442 border border-gray-900">
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+            <div class=""></div>
+
+        </div>
+
+
+
+
+        <div class=""></div>
+        <div class=""></div>
+
+
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <hr>
+    <h3>EXPERIÊNCIA</h3>
+    <br>
+
+    <div class="experience-content">
+        <div class="experience-one">
+            <h4>
+                FUNÇÃO
+            </h4>
+            <br>
+            <h3>NOME DA EMPRESA</h3>
+            <p>Descreva aqui a função que voce Experiência</p>
+        </div>
+
+        <div class="experience-two">
+            <h4>
+                FUNÇÃO
+            </h4>
+            <br>
+            <h3>NOME DA EMPRESA</h3>
+            <p>Descreva aqui a função que voce Experiência</p>
+        </div>
+
+        <div class="experience-three">
+            <h4>
+                FUNÇÃO
+            </h4>
+            <br>
+            <h3>NOME DA EMPRESA</h3>
+            <p>Descreva aqui a função que voce Experiência</p>
+        </div>
+    </div>
+    <br>
+    <hr>
+    <br>
+
+
+
+    <h3>FORMAÇÃO</h3>
+
+    <div class="loading-color-training"></div>
+
+    <div class="training-content">
+
+        <div class="training-one">
+            <h3>ENSINO SUPERIOR</h3>
+            <h4>Jan/21 á Jun/23</h4>
+            <h4>blablabla</h4>
+        </div>
+
+        <div class="training-two">
+            <h3>ENSINO SUPERIOR</h3>
+            <h4>Jan/21 á Jun/23</h4>
+            <h4>blablabla</h4>
+        </div>
+
+        <div class="training-three">
+            <h3>ENSINO SUPERIOR</h3>
+            <h4>Jan/21 á Jun/23</h4>
+            <h4>blablabla</h4>
         </div>
     </div>
 
+    <br>
+    <hr>
+    <br>
+    <h3> CERTIFICADOS </h3>
 
-    <div class="projects-rectangle-two-title">
-        <div class="projects-rectangle-two">
-            <h1>EXEMPLOS DE PROJETOS</h1>
-            <h3>Titulos do PROJETO</h3>
+    <div class="loading-color-certification"></div>
+
+
+    <div class="certification-content">
+        <div class="certifications-one">
+            <h3> <img src="" alt="Senai"></h3>
+            <h4>Jan/21 á Jun/23</h4>
+            <h4>blablabla</h4>
+        </div>
+
+        <div class="certification-two">
+            <h3> <img src="" alt="Udemy"></h3>
+            <h4>Jan/21 á Jun/23</h4>
+            <h4>blablabla</h4>
+        </div>
+
+        <div class="certification-three">
+            <h3><img src="" alt="Fundação Bradesco"></h3>
+            <h4>Jan/21 á Jun/23</h4>
+            <h4>blablabla</h4>
         </div>
     </div>
-
-
-
-    <div class="projects-rectangle-three-title">
-        <div class="projects-rectangle-three">
-            <h1>EXEMPLOS DE PROJETOS</h1>
-            <h3>Titulos do PROJETO</h3>
-        </div>
-    </div>
-
-</div>
-<br>
-<hr>
-<h3>EXPERIÊNCIA</h3>
-<br>
-
-<div class="experience-content">
-    <div class="experience-one">
-        <h4>
-            FUNÇÃO
-        </h4>
-        <br>
-        <h3>NOME DA EMPRESA</h3>
-        <p>Descreva aqui a função que voce Experiência</p>
-    </div>
-
-    <div class="experience-two">
-        <h4>
-            FUNÇÃO
-        </h4>
-        <br>
-        <h3>NOME DA EMPRESA</h3>
-        <p>Descreva aqui a função que voce Experiência</p>
-    </div>
-
-    <div class="experience-three">
-        <h4>
-            FUNÇÃO
-        </h4>
-        <br>
-        <h3>NOME DA EMPRESA</h3>
-        <p>Descreva aqui a função que voce Experiência</p>
-    </div>
-</div>
-<br>
-<hr>
-<br>
-
-
-
-<h3>FORMAÇÃO</h3>
-
-<div class="loading-color-training"></div>
-
-<div class="training-content">
-    
-    <div class="training-one">
-        <h3>ENSINO SUPERIOR</h3>
-        <h4>Jan/21 á Jun/23</h4>
-        <h4>blablabla</h4>
-    </div>
-
-    <div class="training-two">
-        <h3>ENSINO SUPERIOR</h3>
-        <h4>Jan/21 á Jun/23</h4>
-        <h4>blablabla</h4>
-    </div>
-
-    <div class="training-three">
-        <h3>ENSINO SUPERIOR</h3>
-        <h4>Jan/21 á Jun/23</h4>
-        <h4>blablabla</h4>
-    </div>
-</div>
-
-<br>
-<hr>
-<br>
-<h3> CERTIFICADOS </h3>
-
-<div class="loading-color-certification"></div>
-
-
-<div class="certification-content">
-    <div class="certifications-one">
-        <h3> <img src="" alt="Senai"></h3>
-        <h4>Jan/21 á Jun/23</h4>
-        <h4>blablabla</h4>
-    </div>
-    
-    <div class="certification-two">
-        <h3> <img src="" alt="Udemy"></h3>
-        <h4>Jan/21 á Jun/23</h4>
-        <h4>blablabla</h4>
-    </div>
-    
-    <div class="certification-three">
-        <h3><img src="" alt="Fundação Bradesco"></h3>
-        <h4>Jan/21 á Jun/23</h4>
-        <h4>blablabla</h4>
-    </div>
-</div>
 
 
 
